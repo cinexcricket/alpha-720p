@@ -1,0 +1,13 @@
+#EXTM3U
+#EXT-X-VERSION:3
+
+# 1. Subtitle Definition (Links to the 720p or 480p VTT track)
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="English",DEFAULT=YES,AUTOSELECT=YES,FORCED=NO,LANGUAGE="eng",URI="https://cdn.jsdelivr.net/gh/cinexcricket/alpha-720p@main/subs_eng.vtt"
+
+# 2. 480p Variant Stream (Points to stream.m3u8 of 480p repo)
+#EXT-X-STREAM-INF:BANDWIDTH=500000,AVERAGE-BANDWIDTH=489000,RESOLUTION=720x302,SUBTITLES="subs"
+https://cdn.jsdelivr.net/gh/cinexcricket/alpha-480p@main/stream.m3u8
+
+# 3. 720p Variant Stream (Points to stream.m3u8 of 720p repo)
+#EXT-X-STREAM-INF:BANDWIDTH=1500000,AVERAGE-BANDWIDTH=1300000,RESOLUTION=1280x536,SUBTITLES="subs"
+https://cdn.jsdelivr.net/gh/cinexcricket/alpha-720p@main/stream.m3u8

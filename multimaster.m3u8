@@ -6,7 +6,7 @@
 
 # 2. 480p Variant Stream (Points to stream.m3u8 of 480p repo)
 #EXT-X-STREAM-INF:BANDWIDTH=500000,AVERAGE-BANDWIDTH=489000,RESOLUTION=720x302,SUBTITLES="subs"
-https://cdn.jsdelivr.net/gh/cinexcricket/alpha-480p@main/stream.m3u8
+https://cdn.jsdelivr.net/gh/cinexcricket/alpha-480p@main/master.m3u8
 
 # 3. 720p Variant Stream (Points to stream.m3u8 of 720p repo)
 #EXT-X-STREAM-INF:BANDWIDTH=1500000,AVERAGE-BANDWIDTH=1300000,RESOLUTION=1280x536,SUBTITLES="subs"
